@@ -7,6 +7,10 @@ repositories {
     mavenCentral()
 }
 
+jar {
+    baseName 'gitbucket-helloworld-plugin'
+}
+
 dependencies {
     compile "org.scala-lang:scala-library:${scalaLibraryVersion}"
     compileOnly "io.github.gitbucket:gitbucket_2.11:${gitbucketVersion}"
